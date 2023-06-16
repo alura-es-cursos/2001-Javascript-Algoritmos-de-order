@@ -1,25 +1,4 @@
-const listaPrecios = [
-    {
-        nombre: 'PHP',
-        precio: 20,
-    },
-    {
-        nombre: 'Python',
-        precio: 25,
-    },
-    {
-        nombre: 'Javascript',
-        precio: 30,
-    },
-    {
-        nombre: 'Java',
-        precio: 45,
-    },
-    {
-        nombre: 'Goland',
-        precio: 35,
-    }
-];
+const listaPrecios = require('./Data');
 
 let menor = 0;
 

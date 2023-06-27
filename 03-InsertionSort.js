@@ -9,7 +9,6 @@ function insertionSort(lista) {
 
             lista[analizado] = elementoAnterior;
             lista[analizado-1] = elementoAnalizado;
-
             analizado--;
 
         }
